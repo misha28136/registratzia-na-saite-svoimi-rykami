@@ -1,0 +1,101 @@
+/*.pole {
+   width: 75%;
+   padding: 10px 20px;
+   margin: 8px 33;
+   box-sizing: border-box;
+   border: 2px #11ffcc;
+   border-radius: 15px;
+   background-color: #99ffff;
+ }
+.pole:focus {
+   width: 75%;
+   padding: 10px 20px;
+   margin: 8px 33;
+   box-sizing: border-box;
+   border: 5px #11ffcc;
+   border-radius: 15px;
+   background-color: #99ffff;
+ }
+form label {
+  display: inline-block;
+  width: 100px;
+}
+ 
+form div {
+  margin-bottom: 10px;
+}
+.fb {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}*/
+input {
+	width: 300px;
+	font-size: 13px;
+	padding: 6px 0 4px 10px;
+	border: 1px solid #cecece;
+	background: #F6F6f6;
+	border-radius: 8px;
+}
+body {
+  font: 1em sans-serif;
+  padding: 0;
+  margin : 0;
+}
+
+form {
+  max-width: 200px;
+}
+
+p * {
+  display: block;
+}
+
+input.mail {
+  -webkit-appearance: none;
+
+  width: 100%;
+  border: 1px solid #333;
+  margin: 0;
+
+  font-family: inherit;
+  font-size: 90%;
+
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* This is our style for the invalid fields */
+input.invalid{
+  border-color: #900;
+  background-color: #FDD;
+}
+
+input:focus.invalid {
+  outline: none;
+}
+
+/* This is the style of our error messages */
+.error {
+  width  : 100%;
+  padding: 0;
+ 
+  font-size: 80%;
+  color: white;
+  background-color: #900;
+  border-radius: 0 0 5px 5px;
+ 
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.error.active {
+  padding: 0.3em;
+}

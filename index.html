@@ -1,0 +1,179 @@
+<!--<!DOCTYPE html>
+<html lang="ru">
+ <head>
+  <title>test</title>
+  <style>
+body {
+
+}
+
+html {
+
+}
+::selection {background: #78e780;}
+::-moz-selection {background: #78e780;}
+::-webkit-selection {background: #78e780; color:#fff;}
+  </style>
+  <link rel="icon" href="https://sitename.ru/favicon.ico" type="image/x-icon">
+  <meta name="application-name" content="1">
+  <meta name="mobile-web-app-capable" content="yes">
+  <link rel="icon" sizes="192x192" href="app0.png">
+  <meta name="apple-mobile-web-app-title" content="1">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="format-detection" content="telephone=no">
+  <link rel="apple-touch-icon" href="app0.png">
+  <link rel="apple-touch-startup-image" href="app.png">
+  <meta name="description" content="1">
+  <meta name="keywords" content="1,2,3">
+  <meta http-equiv="Content-Language" content="ru">
+  <meta name="Copyright" content="1">
+  <meta name="Author" content="2">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="theme-color" content="#317EFB">
+  <meta name="robots" content="nofollow">
+  <meta http-equiv="Cache-Control" content="public">
+  <meta name="revisit-after" content="1 days">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="apple-touch-icon" href="example.png">
+  <link rel="canonical" href="http://moyadachaplussnt.byethost3.com/">
+  <link rel="stylesheet" type="text/css" href="index.css">
+  <link rel="stylesheet" type="text/css" href="header.css">
+  <link rel="stylesheet" type="text/css" href="fonts.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="jquery.mCustomScrollbar.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+<form action="indexf.php" method="post">
+<label for="name">Name:</label><input type="text" name="name" class="pole" id="name" placeholder="Введите имя..." maxlength="20"><br>
+<label for="email">E-mail:</label><input type="text" name="email" class="pole" id="email" placeholder="Введите e-mail..." maxlength="30"><span id="validEmail"></span><br>
+<label for="tema">tema:</label><input type="text" name="tema" class="pole" id="tema" placeholder="Введите тему письма..." maxlength="30"><br>
+<label for="s">soobhsenie:</label><textarea type="text" name="s" class="pole" id="s" placeholder="Введите сообщение..."  maxlength="500"></textarea><input type="text" name="s" class="pole" id="s" placeholder="Введите сообщение..."  maxlength="500"><br>
+<input type="reset" value="Очистить" class="fb"><br>
+<input type="submit" name="submit" value="Отправить" class="fb">
+</form>
+<p>Для денисоодарённых пиши в емаил misha10.28m28m10@gmail.com а в тему 5 и в сообщение Привет</p>
+<script src="index.js"></script>
+  <script scr="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+  <script src="" type="text/javascript"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vue@2.6.11"></script>
+  <script>
+  let headerBgTitle = document.getElementById('header__bg-title-scene');
+  let headerBgTitleInstance = new Parallax(headerBgTitle);
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>		
+<script>
+document.addEventListener("DOMContentLoaded", (e) => {
+  const head = document.head;
+  const element = document.createElement("link");
+  element.rel = "stylesheet";
+  element.href = "1.css";
+  head.appendChild(element);
+});
+</script>
+<p class="codepen" data-height="265" data-theme-id="dark" data-default-tab="html,result" data-user="misha10" data-slug-hash="pogOMxE" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="pogOMxE">
+  <span>See the Pen <a href="https://codepen.io/misha10/pen/pogOMxE">
+  pogOMxE</a> by misha10 (<a href="https://codepen.io/misha10">@misha10</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+</body>
+</html>-->
+<!DOCTYPE html>
+<html lang="ru">
+ <head>
+  <title>Регистрация</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<form action="form.php" method="post">
+<label for="name">Имя:</label><br><br><input type="text" name="name" class="pole" id="name" placeholder="Введите имя..." maxlength="20"><br><br>
+<label for="mail">E-mail:</label><br><br><input type="text" class="mail" id="mail" name="email" placeholder="Введите e-mail..." maxlength="30"><br><br><span class="error" aria-live="polite"></span>
+<label for="tema">Пароль:</label><br><br><input type="text" name="pass" class="pole" id="tema" placeholder="Новый пароль..." maxlength="30"><br><br>
+<label for="s">Введите капчу:</label><br><br>
+<img src="captcha.php" alt="Капча" /><br><br>
+<input name="captcha" tyre="text">
+<input type="reset" value="Очистить" class="fb"><br><br>
+<input type="submit" name="submit" value="Отправить" class="fb">
+</form>
+<script src="index.js"></script>
+<script>
+// Существует меньше способов выбрать узел DOM с устаревшими браузерами
+var form  = document.getElementsByTagName('form')[0];
+var email = document.getElementById('mail');
+
+// Ниже приведен трюк для достижения следующего узла Element Element в DOM
+// Это опасно, потому что вы можете легко построить бесконечный цикл.
+// В современных браузерах вам следует использовать элемент element.nextElementSibling
+var error = email;
+while ((error = error.nextSibling).nodeType != 1);
+
+// As per the HTML5 Specification
+var emailRegExp = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
+
+// Многие устаревшие браузеры не поддерживают метод addEventListener.
+// Вот простой способ справиться с этим; это далеко не единственный.
+function addEvent(element, event, callback) {
+  var previousEventCallBack = element["on"+event];
+  element["on"+event] = function (e) {
+    var output = callback(e);
+
+    // Обратный вызов, который возвращает `false`, останавливает цепочку обратного вызова
+     // и прерывает выполнение обратного вызова события.
+    if (output === false) return false;
+
+    if (typeof previousEventCallBack === 'function') {
+      output = previousEventCallBack(e);
+      if(output === false) return false;
+    }
+  }
+};
+
+// Теперь мы можем перестроить наше ограничение валидации
+// Поскольку мы не полагаемся на псевдо-класс CSS, мы должны
+// явно установить допустимый / недопустимый класс в поле электронной почты
+addEvent(window, "load", function () {
+// Здесь мы проверяем, пусто ли поле (помните, что поле не требуется)
+   // Если это не так, мы проверяем, является ли его контент корректным адресом электронной почты.
+  var test = email.value.length === 0 || emailRegExp.test(email.value);
+
+  email.className = test ? "valid" : "invalid";
+});
+
+// Это определяет, что происходит, когда пользователь вводит в поле
+addEvent(email, "input", function () {
+  var test = email.value.length === 0 || emailRegExp.test(email.value);
+  if (test) {
+    email.className = "valid";
+    error.innerHTML = "";
+    error.className = "error";
+  } else {
+    email.className = "invalid";
+  }
+});
+
+// Это определяет, что происходит, когда пользователь пытается отправить данные
+addEvent(form, "submit", function () {
+  var test = email.value.length === 0 || emailRegExp.test(email.value);
+
+  if (!test) {
+    email.className = "invalid";
+    error.innerHTML = "I expect an e-mail, darling!";
+    error.className = "error active";
+
+    // Некоторые устаревшие браузеры не поддерживают метод event.preventDefault ()
+    return false;
+  } else {
+    email.className = "valid";
+    error.innerHTML = "";
+    error.className = "error";
+  }
+});
+</script>
+</body>
+</html>
